@@ -1,0 +1,174 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(225, 18%, 96%);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 16px;
+}
+.card{
+    background-color:rgb(228, 226, 226);
+    height: 560px;
+    width: 1120px;
+}
+.content h2{
+   color: hsl(212, 6%, 44%) ;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+   font-weight: 100;
+}
+.content h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 500; 
+    padding-top: 3px;
+}
+.content h5{
+ color: hsl(212, 6%, 44%);
+ font-weight: 100;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+ font-size: 11px;
+ margin-top: 13px;
+}
+.card1{
+    background-color:white;
+    text-align: left;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    border-top: 12px;
+    border-radius: 10px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    box-shadow: -2px 6px 10px lightgray;
+    width: 350px;
+    height: 200px;   
+}
+.card1 h5{
+    color: hsl(212, 6%, 44%);
+    padding-top: 6px;
+}
+.card1 img{
+    width: 30px;
+    margin-left: 80%;
+    margin-top: 60px;
+}
+.card2{
+    background-color: white;
+    text-align: left;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    border-radius: 10px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    width: 350px;
+    height: 200px;
+   box-shadow: -2px 6px 10px lightgray;
+}
+.card2 h5{
+    color: hsl(212, 6%, 44%);
+    padding-top: 6px;
+}
+.card2 img{
+    width: 30px;
+    margin-left: 80%;
+    margin-top: 60px;
+}
+.card3 {
+    background-color: white;
+    text-align: left;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    border-radius: 10px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    width: 350px;
+    height: 200px;
+    box-shadow: -2px 6px 10px lightgray;
+}
+.card3 ,.card4 h5{
+    color: hsl(212, 6%, 44%);
+    padding-top: 6px;
+}
+.card3 h4{
+ color: black;
+ padding-top: 23px;
+ 
+}
+.card3 h5{
+    padding-top: 7px;
+}
+.card3 img{
+    width: 30px;
+    margin-left: 80%;
+    margin-top: 60px;
+}
+.card4{
+    background-color: white;
+    text-align: left;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    border-radius: 10px;
+    border-top:4px solid hsl(212, 86%, 64%) ;
+    width: 350px;
+    height: 200px;
+    box-shadow: -2px 6px 10px lightgray;
+}
+.card4 img{
+    width: 30px;
+    margin-left: 80%;
+    margin-top: 60px;
+}
+.both-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.both-card2{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.both-card3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:375px){
+  .both-card2,.both-card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+  .both-card{
+    display: flex;
+    flex-direction: column;
+    transform: translateY(40px);
+    
+  } 
+  .content h5{
+    font-size: 12px;
+    width: 300px;
+  }
+  .card1{
+    transform: translateY(-20px);
+  }
+  .card4{
+    transform: translateY(-30px);
+  }
+  .card3{
+    transform: translateY(-10px);
+  }
+}
+
+
